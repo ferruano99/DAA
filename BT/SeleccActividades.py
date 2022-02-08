@@ -1,6 +1,6 @@
 def factible(etapa, c, f, sol):
     for i in range(etapa):
-        if c[etapa] <= f[i] and sol[i] == 0:
+        if c[etapa] < f[i] and sol[i] == 0:
             return False
     return True
 
